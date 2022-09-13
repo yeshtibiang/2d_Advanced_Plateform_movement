@@ -54,6 +54,11 @@ public class PlayerManager : MonoBehaviour
         {
             ChangeAnimationState(3);
         }
+        // slide animation
+        if (!collisionState.standing && collisionState.onWall)
+        {
+            ChangeAnimationState(4);
+        }
     }
 
     void ChangeAnimationState(int value)

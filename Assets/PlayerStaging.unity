@@ -349,7 +349,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   standing: 0
+  onWall: 0
   bottomPosition: {x: 0, y: -8.5}
+  rightPosition: {x: 4, y: -5}
+  leftPosition: {x: -4, y: -5}
   collisionRadius: 3
   debugCollisionColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &97765333

@@ -511,7 +511,7 @@ AnimatorStateTransition:
   - m_ConditionMode: 6
     m_ConditionEvent: AnimState
     m_EventTreshold: 1
-  - m_ConditionMode: 3
+  - m_ConditionMode: 6
     m_ConditionEvent: EquippedItem
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
